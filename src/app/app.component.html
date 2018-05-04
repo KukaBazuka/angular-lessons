@@ -1,20 +1,36 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<app-sidebar>
+</app-sidebar>
+<!-- Main content -->
+<main class="main-content">
+    <!-- Content header -->
+    <header class="main-content__header">
+        <!-- Open mobile menu button -->
+        <button class="mobile-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                      d="M501.333 96H10.667C4.779 96 0 100.779 0 106.667s4.779 10.667 10.667 10.667h490.667c5.888 0 10.667-4.779 10.667-10.667S507.221 96 501.333 96zm0 149.333H10.667C4.779 245.333 0 250.112 0 256s4.779 10.667 10.667 10.667h490.667c5.888 0 10.667-4.779 10.667-10.667s-4.78-10.667-10.668-10.667zm0 149.334H10.667C4.779 394.667 0 399.445 0 405.333 0 411.221 4.779 416 10.667 416h490.667c5.888 0 10.667-4.779 10.667-10.667-.001-5.888-4.78-10.666-10.668-10.666z"/>
+            </svg>
+        </button>
+        <!-- Header title -->
+        <span class="main-content__header-text">
+            All contacts щдщдлвлтсотвы
+        </span>
+        <!-- Dots menu -->
+        <button class="main-content__header-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612">
+                <path fill="currentColor"
+                      d="M55.636 250.364C24.907 250.364 0 275.27 0 306c0 30.73 24.907 55.636 55.636 55.636S111.273 336.73 111.273 306c0-30.73-24.907-55.636-55.637-55.636zm259.637 0c-30.73 0-55.636 24.907-55.636 55.636 0 30.729 24.907 55.636 55.636 55.636 30.729 0 55.636-24.905 55.636-55.636 0-30.73-24.906-55.636-55.636-55.636zm241.091 0c-30.73 0-55.636 24.907-55.636 55.636 0 30.729 24.906 55.636 55.636 55.636C587.093 361.636 612 336.73 612 306c0-30.73-24.907-55.636-55.636-55.636z"/>
+            </svg>
+        </button>
+    </header>
+    <!--
+    <app-contacts-grid>
+    </app-contacts-grid>
+    -->
+    <app-contact-form>
+    </app-contact-form>
+    <!--
+    <app-contact-full-view>
+    </app-contact-full-view>
+    -->
+</main>
